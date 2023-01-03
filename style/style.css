@@ -1,3 +1,13 @@
-sback {
-    background-color: black;
+body {
+    background-image: url(../assets/blackbackground.jpeg);
+}
+
+.srow {
+    display: flex;
+    flex-direction: row;
+}
+
+.sgap {
+    display: flex;
+   
 }
