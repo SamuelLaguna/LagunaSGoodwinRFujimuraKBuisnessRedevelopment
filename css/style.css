@@ -1,3 +1,18 @@
 body {
     background-color: black;
 }
+
+.srow {
+    display: flex;
+    flex-direction: row;
+}
+
+.sgap {
+    display: flex;
+   
+}
+
+.rtopofpage {
+    background-image: url(../assets/images/tiresbg.jpg)
+
+}
