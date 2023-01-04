@@ -9,10 +9,23 @@ body {
 
 .sgap {
     display: flex;
-   
+
 }
 
-.rtopofpage {
-    background-image: url(../assets/images/tiresbg.jpg)
+.rTireBackground {
+    background-image: url(../assets/images/tiresbg.jpg);
+    padding-bottom: 35%;
+    background-position: right;
+}
 
+.locationAndContact {
+    color: white;
+    align-self: center;
+}
+
+.rColForLocal{
+background-color: black;
+padding-left: 5%;
+padding-bottom: 20%;
+padding-right:-15%;
 }
