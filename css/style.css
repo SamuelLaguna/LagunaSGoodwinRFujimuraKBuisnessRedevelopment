@@ -1,3 +1,25 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~ Fonts ~~~~~~~~~~~~~~~~~~~~~~~ */
+@font-face {
+    font-family: Antique-Olive;
+    src: url(../assets/fonts/Antique-Olive-Regular.ttf);
+}
+
+@font-face {
+    font-family: K2D;
+    src: url(../assets/fonts/K2D-Regular.ttf);
+}
+
+@font-face {
+    font-family: Koulen;
+    src: url(../assets/fonts/Koulen-Regular.ttf);
+}
+
+@font-face {
+    font-family: Iceland;
+    src: url(../assets/fonts/Iceland-Regular.ttf);
+}
+
+
 body {
     background-color: black;
 }
@@ -23,9 +45,949 @@ body {
     align-self: center;
 }
 
-.rColForLocal{
-background-color: black;
-padding-left: 5%;
-padding-bottom: 20%;
-padding-right:-15%;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~ Ken's CSS for index.html begins ~~~~~~~~~~~~~~~~~~~~~~~ */
+.navbar {
+    background-color: rgba(217, 217, 217, .8);
+    height: 7.875rem;
+}
+
+.navbar-logo-txt{
+    font-family: Koulen;
+    font-size: 2.813rem;
+    color: black;
+    padding-left: 5.25rem;
+    line-height: 2.5rem;
+}
+
+.navbar-links{
+    font-family: Iceland;
+    font-size: 4rem;
+    color: black;
+    padding-right: 2rem;
+}
+
+.nav-item {
+    padding-right: 2.75rem;
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+}
+
+.navbar-logo-left-margin{
+    margin-left: 2.75rem;
+}
+
+.navbar-logos {
+    height: 3.438rem;
+    width: 3.438rem;
+    margin-right: 3.125rem;
+}
+
+.index-header-img{
+    height: 51.875rem;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(../assets/images/tiresbg.jpg);
+    background-position-x: 70%;
+    background-size: cover;
+}
+
+.index-header-txt{
+    font-family: Antique-Olive;
+    font-style: italic;
+    font-size: 6.875rem;
+    background: -webkit-linear-gradient(left, #FFFFFF, #9D9D9D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+
+}
+
+.index-header-subtxt{
+    font-family: Antique-Olive;
+    font-style: italic;
+    font-size: 3.375rem;
+    background: -webkit-linear-gradient(left, #FFFFFF, #BFBFBF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+
+.index-header-txt-spacing{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 44rem;
+}
+
+.overview-center-content{
+    display: flex;
+    justify-content: center;
+}
+
+.overview-container{
+    max-width: 120rem;
+}
+
+.overview-hero-col-width{
+    max-width: 58.5rem;
+}
+
+.overview-txt-col-width{
+    margin-left: 3.188rem;
+    max-width: 41.688rem;
+}
+
+.overview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 58.5rem;
+}
+
+.overview-txt{
+    font-family: K2D;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: white;
+    line-height: 2.313rem;
+}
+
+.overview-heroimg{
+    background-image: url(../assets/images/overview-car.jpg);
+    background-size: cover;
+    background-position-y: 80%;
+    height: 38.375rem;
+    width: 58.5rem;
+}
+
+.serv-title-pad{
+    height: 5.813rem;
+}
+
+.services-bg{
+    background-image: url(../assets/images/tireChanger.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+    height: 22.313rem;
+}
+
+.services-title-txt{
+    height: 10.688rem;
+    background-color: rgba(0, 0, 0, .84);
+    font-family: Antique-Olive;
+    font-size: 6.25rem;
+    font-style: italic;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-title-spacing{
+    max-width: 103.75rem;
+}
+
+.services-listings-boxes{
+    max-width: 50.875rem;
+    height: 21.875rem;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: white;
+    font-family: Antique-Olive;
+    font-size: 4rem;
+    color: white;
+    font-style: italic;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    background-size: cover;
+    background-position-y: 50%;
+}
+
+.services-tires-bg{
+    background-image: url(../assets/images/newTires.jpg);
+}
+
+.services-alignments-bg{
+    background-image: url(../assets/images/alignment.jpg);
+}
+
+.services-repairs-bg{
+    background-image: url(../assets/images/nailTire.jpg);
+}
+
+.services-minor-bg{
+    background-image: url(../assets/images/minorRepair.jpg);
+}
+
+.services-rims-bg{
+    background-image: url(../assets/images/customRims.jpg);
+}
+
+.services-quote-bg{
+    background-image: url(../assets/images/phone.png);
+}
+
+.services-listings-txt-area{
+    background-color: rgba(0, 0, 0, .70);
+    margin-top: 1.75rem;
+    padding-left: 1.563rem;
+    -webkit-text-stroke: 1px black;
+}
+
+.services-padding{
+    height: 4.875rem;
+}
+
+.brands-title-bg{
+    height: 7.363rem;
+    background-image: url(../assets/images/road.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+}
+
+.brands-title-txt{
+    height: 3.527rem;
+    background-color: rgba(0, 0, 0, .84);
+    font-family: Antique-Olive;
+    font-size: 2.063rem;
+    font-style: italic;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brands-logos-positioning{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.25rem;
+}
+
+.brand-logos{
+    width: 100%;
+    height: auto;
+}
+
+.brand-bg{
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~ 1st Step Media Query ~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 1632px) {
+    .navbar {
+        height: 6.694rem;
+    }
+    
+    .navbar-logo-txt{
+        font-size: 2.391rem;
+        padding-left: 4.623rem;
+        line-height: 2.125rem;
+    }
+    
+    .navbar-links{
+        font-size: 3.4rem;
+        padding-right: 1.7rem;
+    }
+    
+    .nav-item {
+        padding-right: 2.338rem;
+    }
+    
+    .navbar-logo-left-margin{
+        margin-left: 2.338rem;
+    }
+    
+    .navbar-logos {
+        height: 2.922rem;
+        width: 2.922rem;
+        margin-right: 2.656rem;
+    }
+    
+    .index-header-img{
+        height: 44.094rem;
+    }
+    
+    .index-header-txt{
+        font-size: 5.844rem;
+    }
+    
+    .index-header-subtxt{
+        font-size: 2.869rem;
+    }
+    
+    .index-header-txt-spacing{
+        min-height: 37.4rem;
+    }
+    
+    .overview-container{
+        max-width: 102rem;
+    }
+    
+    .overview-hero-col-width{
+        max-width: 49.725rem;
+    }
+    
+    .overview-txt-col-width{
+        margin-left: 2.71rem;
+        max-width: 35.435rem;
+    }
+    
+    .overview{
+        height: 49.725rem;
+    }
+    
+    .overview-txt{
+        font-size: 1.275rem;
+        line-height: 1.966rem;
+    }
+    
+    .overview-heroimg{
+        height: 32.619rem;
+        width: 49.725rem;
+    }
+    
+    .serv-title-pad{
+        height: 4.941rem;
+    }
+    
+    .services-bg{
+        height: 18.966rem;
+    }
+    
+    .services-title-txt{
+        height: 9.085rem;
+        font-size: 5.313rem;
+    }
+    
+    .services-title-spacing{
+        max-width: 88.188rem;
+    }
+    
+    .services-listings-boxes{
+        max-width: 43.244rem;
+        height: 18.594rem;
+        border-radius: 2px;
+        font-size: 3.4rem;
+        margin-top: 0.85rem;
+        margin-bottom: 0.85rem;
+        margin-right: 0.85rem;
+        margin-left: 0.85rem;
+    }
+
+    .services-listings-txt-area{
+        margin-top: 1.488em;
+        padding-left: 1.329rem;
+    }
+    
+    .services-padding{
+        height: 4.144rem;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~ 2nd Step Media Query (XXL Size) ~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 1400px) {
+    .navbar {
+        height: 5.513rem;
+    }
+    
+    .navbar-logo-txt{
+        font-size: 1.969rem;
+        padding-left: 3.675rem;
+        line-height: 1.75rem;
+    }
+    
+    .navbar-links{
+        font-size: 2.8rem;
+        padding-right: 1.4rem;
+    }
+    
+    .nav-item {
+        padding-right: 1.925rem;
+    }
+    
+    .navbar-logo-left-margin{
+        margin-left: 1.925rem;
+    }
+    
+    .navbar-logos {
+        height: 2.407rem;
+        width: 2.407rem;
+        margin-right: 2.186rem;
+    }
+    
+    .index-header-img{
+        height: 36.313rem;
+    }
+    
+    .index-header-txt{
+        font-size: 4.813rem;
+    }
+    
+    .index-header-subtxt{
+        font-size: 2.363rem;
+    }
+    
+    .index-header-txt-spacing{
+        min-height: 30.8rem;
+    }
+    
+    .overview-container{
+        max-width: 84rem;
+    }
+    
+    .overview-hero-col-width{
+        max-width: 40.95rem;
+    }
+    
+    .overview-txt-col-width{
+        margin-left: 2.232rem;
+        max-width: 29.182rem;
+    }
+    
+    .overview{
+        height: 40.95rem;
+    }
+    
+    .overview-txt{
+        font-size: 1.05rem;
+        line-height: 1.619rem;
+    }
+    
+    .overview-heroimg{
+        height: 26.863rem;
+        width: 40.95rem;
+    }
+    
+    .serv-title-pad{
+        height: 4.069rem;
+    }
+    
+    .services-bg{
+        height: 15.619rem;
+    }
+    
+    .services-title-txt{
+        height: 7.482rem;
+        font-size: 4.375rem;
+    }
+    
+    .services-title-spacing{
+        max-width: 72.6225rem;
+    }
+    
+    .services-listings-boxes{
+        max-width: 35.613rem;
+        height: 15.313rem;
+        font-size: 2.8rem;
+        margin-top: 0.7rem;
+        margin-bottom: 0.7rem;
+        margin-right: 0.7rem;
+        margin-left: 0.7rem;
+    }
+
+    .services-listings-txt-area{
+        margin-top: 1.225rem;
+        padding-left: 1.225rem;
+    }
+    
+    .services-padding{
+        height: 3.413rem;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~ 3rd Step Media Query ~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 1125px) {
+    .navbar {
+        height: 4.331rem;
+    }
+    
+    .navbar-logo-txt{
+        font-size: 1.547rem;
+        padding-left: 2.888rem;
+        line-height: 1.375rem;
+    }
+    
+    .navbar-links{
+        font-size: 2.2rem;
+        padding-right: 1.1rem;
+    }
+    
+    .nav-item {
+        padding-right: 1.513rem;
+    }
+    
+    .navbar-logo-left-margin{
+        margin-left: 1.513rem;
+    }
+    
+    .navbar-logos {
+        height: 1.891rem;
+        width: 1.891rem;
+        margin-right: 1.719rem;
+    }
+
+    .navbar-toggler{
+        margin-right: 1rem;
+        margin-bottom: .5rem;
+    }
+    
+    .index-header-img{
+        height: 28.531rem;
+    }
+    
+    .index-header-txt{
+        font-size: 3.781rem;
+    }
+    
+    .index-header-subtxt{
+        font-size: 1.856rem;
+    }
+    
+    .index-header-txt-spacing{
+        min-height: 24.2rem;
+    }
+    
+    .overview-container{
+        max-width: 66rem;
+    }
+    
+    .overview-hero-col-width{
+        max-width: 32.175rem;
+    }
+    
+    .overview-txt-col-width{
+        margin-left: 1.753rem;
+        max-width: 22.928rem;
+    }
+    
+    .overview{
+        height: 32.175rem;
+    }
+    
+    .overview-txt{
+        font-size: .825rem;
+        line-height: 1.272rem;
+    }
+    
+    .overview-heroimg{
+        height: 21.106rem;
+        width: 32.175rem;
+    }
+    
+    .serv-title-pad{
+        height: 3.197rem;
+    }
+    
+    .services-bg{
+        height: 12.272rem;
+    }
+    
+    .services-title-txt{
+        height: 5.878rem;
+        font-size: 3.438rem;
+    }
+    
+    .services-title-spacing{
+        max-width: 57.063rem;
+    }
+    
+    .services-listings-boxes{
+        max-width: 27.981rem;
+        height: 12.031rem;
+        font-size: 2.2rem;
+        margin-top: .55rem;
+        margin-bottom: .55rem;
+        margin-right: .55rem;
+        margin-left: .55rem;
+    }
+
+    .services-listings-txt-area{
+        margin-top: .963rem;
+        padding-left: .86rem;
+    }
+    
+    .services-padding{
+        height: 2.681rem;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~ 4rd Step Media Query (LG Size) ~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 991px){
+    .navbar-nav {
+        background-color: rgba(174, 174, 174, 1);
+    }
+    
+    .navbar {
+        background-color: rgba(174, 174, 174, 1);
+    }
+
+    .nav-item {
+        padding-left: 2rem;
+    }
+    
+    .overview{
+        height: auto;
+        margin-top: 2.25rem;
+        margin-bottom: 2.25rem;
+    }
+    
+    .overview-heroimg{
+        margin-left: .5rem;
+        float: right;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~ 5th Step Media Query ~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 883px) { 
+
+    .navbar-nav {
+        background-color: #AEAEAE
+    }
+    
+    .index-header-img{
+        height: 23.863rem;
+    }
+    
+    .index-header-txt{
+        font-size: 3.163rem;
+    }
+    
+    .index-header-subtxt{
+        font-size: 1.553rem;
+    }
+    
+    .index-header-txt-spacing{
+        min-height: 20.24rem;
+    }
+    
+    .overview-hero-col-width{
+        max-width: 26.91rem;
+    }
+    
+    .overview-txt-col-width{
+        margin-left: 1.466rem;
+        max-width: 19.176rem;
+    }
+    
+    .overview-txt{
+        font-size: .875rem;
+        line-height: auto;
+    }
+    
+    .overview-heroimg{
+        height: 17.653rem;
+        width: 26.91rem;
+        margin-left: .5rem;
+        float: right;
+    }
+    
+    .serv-title-pad{
+        height: 2.674rem;
+    }
+    
+    .services-bg{
+        height: 10.264rem;
+    }
+    
+    .services-title-txt{
+        height: 4.916rem;
+        font-size: 2.875rem;
+    }
+    
+    .services-title-spacing{
+        max-width: 47.725rem;
+    }
+    
+    .services-listings-boxes{
+        max-width: 23.403rem;
+        height: 10.063rem;
+        font-size: 1.84rem;
+        margin-top: .46rem;
+        margin-bottom: .46rem;
+        margin-right: .46rem;
+        margin-left: .46rem;
+    }
+
+    .services-listings-txt-area{
+        margin-top: .805rem;
+        padding-left: .719rem;
+    }
+    
+    .services-padding{
+        height: 2.243rem;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~ 6th Step Media Query (MD Size) ~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 767px) {
+    .navbar {
+        height: 4.331rem;
+    }
+    
+    .navbar-logo-txt{
+        font-size: 2.813rem;
+        padding-left: 2rem;
+        line-height: 2.5rem;
+    }
+    
+    .navbar-links{
+        font-size: 4rem;
+        padding-right: 2rem;
+    }
+    
+    .nav-item {
+        padding-right: 2.75rem;
+    }
+    
+    .navbar-logos {
+        height: 3rem;
+        width: 3rem;
+        margin-right: 1rem;
+    }
+    
+    .index-header-img{
+        height: 20.75rem;
+    }
+    
+    .index-header-txt{
+        font-size: 2.75rem;
+    }
+    
+    .index-header-subtxt{
+        font-size: 1.35rem;
+    }
+    
+    .index-header-txt-spacing{
+        min-height: 17.6rem;
+    }
+    
+    .overview-heroimg{
+        height: 15.35rem;
+        width: 23.4rem;
+    }
+    
+    .serv-title-pad{
+        height: 2.325rem;
+    }
+    
+    .services-bg{
+        height: 8.925rem;
+    }
+    
+    .services-title-txt{
+        height: 4.275rem;
+        font-size: 2.5rem;
+    }
+    
+    .services-title-spacing{
+        max-width: 41.5rem;
+    }
+    
+    .services-listings-boxes{
+        max-width: 20.35rem;
+        height: 8.75rem;
+        border-radius: 2px;
+        font-size: 1.6rem;
+        margin-top: .4rem;
+        margin-bottom: .4rem;
+        margin-right: .4rem;
+        margin-left: .4rem;
+    }
+
+    .services-listings-txt-area{
+        margin-top: .7rem;
+        padding-left: .625rem;
+    }
+    
+    .services-padding{
+        height: 1.95rem;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~ 7th Step Media Query ~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 642px) {
+
+    .index-header-img{
+        height: 17.119rem;
+    }
+    
+    .index-header-txt{
+        font-size: 2.269rem;
+    }
+    
+    .index-header-subtxt{
+        font-size: 1.114rem;
+    }
+    
+    .index-header-txt-spacing{
+        min-height: 14.52rem;
+    }
+    
+    .overview-heroimg{
+        height: 12.664rem;
+        width: 19.305rem;
+    }
+    
+    .serv-title-pad{
+        height: 1.918rem;
+    }
+    
+    .services-bg{
+        height: 7.363rem;
+    }
+    
+    .services-title-txt{
+        height: 3.527rem;
+        font-size: 2.063rem;
+    }
+    
+    .services-title-spacing{
+        max-width: 34.238rem;
+    }
+    
+    .services-listings-boxes{
+        max-width: 16.789rem;
+        height: 7.219rem;
+        border-radius: 2px;
+        font-size: 1.32rem;
+        margin-top: .33rem;
+        margin-bottom: .33rem;
+        margin-right: .33rem;
+        margin-left: .33rem;
+    }
+
+    .services-listings-txt-area{
+        margin-top: .5775rem;
+        padding-left: .516rem;
+    }
+    
+    .services-padding{
+        height: 1.609rem;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~ 8th Step Media Query (XS Size) ~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 575px) {
+
+    .navbar-logo-txt{
+        font-size: 2rem;
+        padding-left: 1rem;
+        line-height: 2.5rem;
+    }
+
+    .index-header-img{
+        height: 17.119rem;
+    }
+    
+    .index-header-txt{
+        font-size: 2.269rem;
+    }
+    
+    .index-header-subtxt{
+        font-size: 1.114rem;
+    }
+    
+    .index-header-txt-spacing{
+        min-height: 14.52rem;
+    }
+
+    .overview-heroimg{
+        height: 12.664rem;
+        width: 19.305rem;
+    }
+    
+    .serv-title-pad{
+        height: 1.918rem;
+    }
+    
+    .services-bg{
+        height: 7.363rem;
+    }
+    
+    .services-title-txt{
+        height: 3.527rem;
+        font-size: 2.063rem;
+    }
+    
+    .services-title-spacing{
+        max-width: 34.238rem;
+    }
+    
+    .services-listings-boxes{
+        max-width: 16.789rem;
+        height: 7.219rem;
+        border-radius: 2px;
+        font-size: 1.32rem;
+        margin-top: .33rem;
+        margin-bottom: .33rem;
+        margin-right: .33rem;
+        margin-left: .33rem;
+    }
+
+    .services-listings-txt-area{
+        margin-top: .5775rem;
+        padding-left: .516rem;
+    }
+    
+    .services-padding{
+        height: 1.609rem;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~ 9th Step Media Query ~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 530px) {
+    .index-header-txt{
+        font-size: 1.5rem;
+    }
+    .overview-heroimg{
+        height: 10.865rem;
+        width: 16.563rem;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~ 10th Step Media Query ~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 432px){
+    .navbar-logo-txt{
+        font-size: 1.5rem;
+        padding-left: 1rem;
+    }
+    .navbar-logos {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    .overview-heroimg{
+        height: 8.856rem;
+        width: 13.5rem;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~ 11th Step Media Query ~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 366px){
+    .navbar-logo-txt{
+        font-size: 1.3rem;
+        padding-left: 1rem;
+    }
+    .navbar-logos {
+        height: 2rem;
+        width: 2rem;
+    }
+    .index-header-txt{
+        font-size: 1.3rem;
+    }
+    .overview-heroimg{
+        height: 7.5rem;
+        width: 11.438rem;
+    }
 }
