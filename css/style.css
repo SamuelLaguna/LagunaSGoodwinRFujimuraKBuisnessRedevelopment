@@ -40,6 +40,49 @@
 }
 
 
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~ Fonts ~~~~~~~~~~~~~~~~~~~~~~~ */
+@font-face {
+    font-family: Antique-Olive;
+    src: url(../assets/fonts/Antique-Olive-Regular.ttf);
+}
+
+@font-face {
+    font-family: K2D;
+    src: url(../assets/fonts/K2D-Regular.ttf);
+}
+
+@font-face {
+    font-family: Koulen;
+    src: url(../assets/fonts/Koulen-Regular.ttf);
+}
+
+@font-face {
+    font-family: Iceland;
+    src: url(../assets/fonts/Iceland-Regular.ttf);
+}
+
+
+.GalleryTitle {
+    font-family: Antique-Olive;
+    font-style: italic;
+    font-size: 70px;
+    color: white;
+}
+
+.footerTitles {
+    font-family: Koulen;
+    font-size: 46px;
+    color: white;
+}
+
+.footerText{
+    font-family: K2D;
+    font-size: 32px;
+    color: white;
+}
+
+
 body {
     background-color: black;
 }
@@ -1147,6 +1190,69 @@ color: black;
         background-position: center;
         background-position-y: 70%;
         
+
+
+.ScenterMobile {
+    justify-content: center;
+}
+
+
+
+.SfooterText {
+    align-items: center;
+    /* justify-content: space-between; */
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-overlay{
+ border-radius: 0px;
+}
+
+.SfooterLogos {
+    height: 3rem;
+    width: 3rem;
+    margin: 1rem;
+
+}
+
+
+@media(max-width:650px){
+    .SfooterLogos {
+        margin: 0.1rem;
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .footerTitles {
+        font-size: 22px;
+        line-height: auto;
+    }
+
+    .footerText{
+        font-size: 13px;
+        line-height: auto;
+    }
+}
+
+@media(max-width:1390px){
+
+    .footerTitles {
+        font-size: 28px;
+        line-height: auto;
+    }
+
+    .footerText{
+        font-size: px;
+        line-height: auto;
+    }
+}
+
+
+
+
+
+
         }
         @media screen and (max-width: 400px){
 
@@ -1160,5 +1266,6 @@ color: black;
                 font-size: small;
             
             }
+
         }
 }
