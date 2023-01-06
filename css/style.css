@@ -1015,3 +1015,150 @@ body {
         width: 11.438rem;
     }
 }
+
+.rTireBackground {
+    background-image: url(../assets/images/tiresbg.jpg);
+    padding-bottom: 10%;
+    background-position: right;
+}
+
+.locationAndContact {
+    color: white;
+}
+
+.rMapandStuffRow{
+    padding-top: 6%;
+    padding-right: 5%;
+}
+
+.rColForLocal{
+    background-color: rgba(0, 0, 0, .6);
+    padding-left: 5%;
+    padding-bottom: 5%;
+    margin-left: 10%;
+    padding-right: -5px;
+}
+
+.rContactHeader {
+    background-image: url(../assets/images/a-mechanic-s-garage-with-pool-house-above-christine-kelly-crafted-architecture-img_5c31d63c0a68f25e_14-0740-1-9acbd4e.jpg);
+    height: 200px;
+    background-position: center;
+    background-position-y: 70%;
+}
+
+.contactR {
+    color: white;
+}
+
+.rFormColor {
+    color: white;
+}
+
+.rAppointmentRow{
+    align-items: center;
+    padding-top: 6%;
+}
+
+.rColRow{
+    align-self: center;
+    background-color: rgba(0, 0, 0, .7);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.rApptTxt{
+   color: white;
+   font-family: Antique-Olive;
+   font-style: italic;
+}
+
+.RPicturePlaceholder{
+    display: flex;
+    justify-content: end;
+    margin-right: 25%;
+}
+
+.rMapPic{
+    background-image: url(../assets/images/Screenshot_20221201_113341.png);
+    margin-right: 8%;
+    padding-bottom: 25%; 
+    background-position: center;
+    width:800px;
+    margin-left: 25px;
+}
+
+.rlocationHeader{
+    color: white;
+    font-family: K2D;
+    font-weight: bold;
+}
+
+.rLocalBold{
+    font-weight: bold;
+}
+
+.rTextBoxes{
+    padding-left: 5%;
+    flex-direction: row;
+}
+
+.rTextBox{
+    padding-right: 5%;
+}
+
+.rSendBttn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.rSend{
+    border-radius: 0;
+    background-color: #ffd2d2;
+}
+
+.rBoxSide{
+    border-radius: 0;
+}
+
+.BttnText{
+color: black;
+}
+
+@media screen and (max-width: 600px){
+
+    .rlocationHeader{
+        color: white;
+        font-family: K2D;
+        font-size: medium;
+    
+    }
+
+    .rTextBoxer{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .rContactHeader {
+
+        background-image: url(../assets/images/a-mechanic-s-garage-with-pool-house-above-christine-kelly-crafted-architecture-img_5c31d63c0a68f25e_14-0740-1-9acbd4e.jpg);
+        height: 120px;
+        background-position: center;
+        background-position-y: 70%;
+        
+        }
+        @media screen and (max-width: 400px){
+
+            .rsymbols{
+                height:40px;
+            }
+
+            .rlocationHeader{
+                color: white;
+                font-family: K2D;
+                font-size: small;
+            
+            }
+        }
+}
