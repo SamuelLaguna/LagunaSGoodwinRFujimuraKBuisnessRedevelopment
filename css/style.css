@@ -12,6 +12,27 @@ body {
    
 }
 
+
+.SHeroImg {
+    font-size: 3rem;
+   /* background-color: grey; */
+    border: 30px;
+    width: 100%;
+    opacity: 100%;
+    background-image: url(../assets/RedesignBuildPics/redrims.jpeg);
+    padding-bottom: 15%;
+    background-position: center;
+}
+
+.ScenterMobile {
+    justify-content: center;
+}
+
+
+
+
+
+
 .rtopofpage {
     background-image: url(../assets/images/tiresbg.jpg)
 
