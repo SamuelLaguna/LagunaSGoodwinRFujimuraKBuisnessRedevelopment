@@ -18,6 +18,26 @@
     font-family: Iceland;
     src: url(../assets/fonts/Iceland-Regular.ttf);
 }
+/* ~~~~~~~~~~~~~~~~~~~~~~~ Fonts ~~~~~~~~~~~~~~~~~~~~~~~ */
+@font-face {
+    font-family: Antique-Olive;
+    src: url(../assets/fonts/Antique-Olive-Regular.ttf);
+}
+
+@font-face {
+    font-family: K2D;
+    src: url(../assets/fonts/K2D-Regular.ttf);
+}
+
+@font-face {
+    font-family: Koulen;
+    src: url(../assets/fonts/Koulen-Regular.ttf);
+}
+
+@font-face {
+    font-family: Iceland;
+    src: url(../assets/fonts/Iceland-Regular.ttf);
+}
 
 
 body {
@@ -36,13 +56,19 @@ body {
 
 .rTireBackground {
     background-image: url(../assets/images/tiresbg.jpg);
-    padding-bottom: 35%;
+    padding-bottom: 10%;
     background-position: right;
 }
 
 .locationAndContact {
     color: white;
-    align-self: center;
+    
+
+}
+
+.rMapandStuffRow{
+    padding-top: 6%;
+    padding-right: 5%;
 }
 
 
