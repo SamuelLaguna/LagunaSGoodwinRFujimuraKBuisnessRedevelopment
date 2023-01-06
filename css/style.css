@@ -938,6 +938,7 @@ body {
     }
 }
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~ 9th Step Media Query ~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 530px) {
     .index-header-txt{
         font-size: 1.5rem;
@@ -948,6 +949,7 @@ body {
     }
 }
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~ 10th Step Media Query ~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 432px){
     .navbar-logo-txt{
         font-size: 1.5rem;
@@ -963,6 +965,7 @@ body {
     }
 }
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~ 11th Step Media Query ~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 366px){
     .navbar-logo-txt{
         font-size: 1.3rem;
